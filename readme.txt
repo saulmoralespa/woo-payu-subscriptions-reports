@@ -39,7 +39,7 @@ As simple as indicating the start date, end date and the status of the subscript
 * Initial stable release
 
 == Additional Info ==
-**Contribute** [repository on github](https://github.com/saulmoralespa/subscription-payu-latam)
+**Contribute** [repository on github](https://github.com/saulmoralespa/woo-payu-subscriptions-reports)
 
 == Credits ==
 *  [Saul Morales Pacheco](http://saulmoralespa) [@saulmoralespa](http://twitter.com/saulmoralespa)
