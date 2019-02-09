@@ -43,12 +43,12 @@ class Woo_Payu_Subscriptions_Reports_Admin
         $post_type = 'shop_subscription';
 
 
-        $subscription_status = $_POST['subscription_status'];
-        $startDate = $_POST['initial_date'];
-        $endDate = $_POST['end_date'];
+        $subscription_status =  sanitize_text_field($_POST['subscription_status']);
+        $startDate = sanitize_text_field($_POST['initial_date']);
+        $endDate = sanitize_text_field($_POST['end_date']);
         $sendEmail = isset($_POST['send_email']) ? true : false;
 
-        update_option('woo_payu_subscriptions_reports_send_email', $_POST['woo_payu_subscriptions_reports_send_email']);
+        update_option('woo_payu_subscriptions_reports_send_email', sanitize_email($_POST['woo_payu_subscriptions_reports_send_email']));
 
 
         $query = "SELECT ID FROM $wpdb->posts WHERE post_type = '$post_type' AND post_date BETWEEN '$startDate' AND '$endDate' ORDER BY ID DESC";
