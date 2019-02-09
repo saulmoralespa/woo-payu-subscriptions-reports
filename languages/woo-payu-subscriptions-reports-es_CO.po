@@ -1,0 +1,174 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Woo payU subscriptions reports\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-09 22:28+0000\n"
+"PO-Revision-Date: 2019-02-09 22:28+0000\n"
+"Last-Translator: wpdev <cortuclas@gmail.com>\n"
+"Language-Team: Español\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.2.0; wp-5.0.3"
+
+#: woo-payu-subscriptions-reports.php:60
+msgid ""
+"Woo payU subscriptions reports: Requiere la versión de php 5.6 o superior"
+msgstr ""
+"Woo payU subscriptions reports: Requiere la versión de PHP 5.6 o superior"
+
+#: woo-payu-subscriptions-reports.php:76
+msgid ""
+"Woo payU subscriptions reports: Woocommerce must be installed and active"
+msgstr ""
+"Woo payU subscriptions reports: Woocommerce debe estar instalado y activo"
+
+#: woo-payu-subscriptions-reports.php:92
+msgid ""
+"Woo payU subscriptions reports: Subscription Payu Latam must be installed "
+"and active"
+msgstr ""
+"Woo payU subscriptions reports: Subscription Payu Latam debe estar instalada "
+"y activa"
+
+#: woo-payu-subscriptions-reports.php:102
+msgid ""
+"Woo payU subscriptions reports: Woocommerce Subscriptions must be installed "
+"and active, "
+msgstr ""
+"Woo payU subscriptions reports: Woocommerce Subscriptions debe estar "
+"instalado y activo"
+
+#: woo-payu-subscriptions-reports.php:102
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: woo-payu-subscriptions-reports.php:102
+msgid "check the documentation for help"
+msgstr "verifique la documentación para ayuda"
+
+#: includes/class-woo-payu-subscriptions-reports-plugin.php:79
+msgid "Custom create design can only be called once"
+msgstr ""
+
+#: includes/class-woo-payu-subscriptions-reports-plugin.php:112
+msgid "Settings"
+msgstr "Configuraciones"
+
+#: includes/class-woo-payu-subscriptions-reports-admin-generate-report.php:26
+msgid "Initial date"
+msgstr "Fecha inicial"
+
+#: includes/class-woo-payu-subscriptions-reports-admin-generate-report.php:32
+msgid "End date"
+msgstr "Fecha final"
+
+#: includes/class-woo-payu-subscriptions-reports-admin-generate-report.php:38
+msgid "Subscription status"
+msgstr "Estado de suscripción"
+
+#: includes/class-woo-payu-subscriptions-reports-admin-generate-report.php:41
+msgid "All"
+msgstr "Todas"
+
+#: includes/class-woo-payu-subscriptions-reports-admin-generate-report.php:42
+msgid "Active"
+msgstr "Activas"
+
+#: includes/class-woo-payu-subscriptions-reports-admin-generate-report.php:43
+msgid "Expired"
+msgstr "Expiradas"
+
+#: includes/class-woo-payu-subscriptions-reports-admin-generate-report.php:44
+msgid "\tCancelled"
+msgstr "Canceladas"
+
+#: includes/class-woo-payu-subscriptions-reports-admin-generate-report.php:49
+msgid "Email"
+msgstr ""
+
+#: includes/class-woo-payu-subscriptions-reports-admin-generate-report.php:55
+msgid "Send for email"
+msgstr "Enviar por email"
+
+#: includes/class-woo-payu-subscriptions-reports-admin-generate-report.php:62
+#: includes/class-woo-payu-subscriptions-reports-admin.php:22
+#: includes/class-woo-payu-subscriptions-reports-admin.php:22
+msgid "Generate report"
+msgstr "Generar reporte"
+
+#: includes/class-woo-payu-subscriptions-reports-admin.php:32
+msgid "Generating report ..."
+msgstr "Generando informe ..."
+
+#: includes/class-woo-payu-subscriptions-reports-admin.php:33
+msgid "Report not generated!"
+msgstr "Informe no generado!"
+
+#: includes/class-woo-payu-subscriptions-reports-admin.php:34
+msgid ""
+"The record has not been generated because there is no record for the range "
+"of selected dates"
+msgstr ""
+"El registro no se ha generado porque no hay registro para el rango de fechas "
+"seleccionadas"
+
+#: includes/class-woo-payu-subscriptions-reports-admin.php:94
+msgid "Report subscriptions"
+msgstr "Reportes de suscripciones"
+
+#: includes/class-woo-payu-subscriptions-reports-admin.php:106
+msgid "Number"
+msgstr "Numero"
+
+#: includes/class-woo-payu-subscriptions-reports-admin.php:107
+msgid "Name of product"
+msgstr "Numero de producto"
+
+#: includes/class-woo-payu-subscriptions-reports-admin.php:108
+msgid "Quantity"
+msgstr "cantidad"
+
+#: includes/class-woo-payu-subscriptions-reports-admin.php:109
+msgid "Client name"
+msgstr "Nombre de cliente"
+
+#: includes/class-woo-payu-subscriptions-reports-admin.php:110
+msgid "Address"
+msgstr "Direccion"
+
+#: includes/class-woo-payu-subscriptions-reports-admin.php:111
+msgid "order note"
+msgstr "nota del pedido"
+
+#: includes/class-woo-payu-subscriptions-reports-admin.php:154
+msgid "Suscripciones"
+msgstr "Suscripciones"
+
+#: includes/class-woo-payu-subscriptions-reports-admin.php:231
+msgid "Report of subscriptions generated"
+msgstr "Informe de suscripciones generado"
+
+#: includes/class-woo-payu-subscriptions-reports-admin.php:233
+msgid "The report is attached"
+msgstr "Se adjunta el reporte"
+
+#. Name of the plugin
+msgid "Woo payU subscriptions reports"
+msgstr ""
+
+#. Description of the plugin
+msgid "Generates excel reports of payU latam subscriptions"
+msgstr ""
+
+#. Author of the plugin
+msgid "Saul Morales Pacheco"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://saulmoralespa.com"
+msgstr ""
